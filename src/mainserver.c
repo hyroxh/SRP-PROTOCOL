@@ -323,9 +323,13 @@ int main()
 	{
 		setup(&new_socket);
 	}
-	else
+	else if(*option == '2')
 	{
 		verification(&new_socket);
+	}
+	else
+	{
+		printf("Wrong command\n");
 	}
 	
 	close(new_socket);
