@@ -1,7 +1,7 @@
 # SRP-PROTOCOL
 Password authentication with the SRP protocol in a basic client-server model
 
-In order to complie the programs, you should have argon2 and gmp libraries installed. Please visit https://github.com/P-H-C/phc-winner-argon2 and https://gmplib.org/ for further instuctions.
+In order to compile the programs, you should have argon2 and gmp libraries installed. Please visit https://github.com/P-H-C/phc-winner-argon2 and https://gmplib.org/ for further instuctions.
 
 To compile the server program, enter the following command:
 $ gcc server.c verifier.c mainserver.c libargon2.a -Isrc -lgmp -o <name_of_exe_file>
