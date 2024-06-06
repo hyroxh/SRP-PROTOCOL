@@ -104,7 +104,7 @@ int proof(int* client_fd)
 	if(strcmp(existUser, "n") == 0)
 	{
 		printf("User doesn't exist!\n");
-		return 0;
+		exit(EXIT_FAILURE);
 	}
 	
 	
@@ -198,7 +198,7 @@ int proof(int* client_fd)
 	if(strcmp(server_decision, "n") == 0)
 	{
 		printf("Wrong password!\n");
-		return 0;
+		exit(EXIT_FAILURE);
 	}
 	
 	mpz_t R;

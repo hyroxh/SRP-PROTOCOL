@@ -270,7 +270,7 @@ int verification(int* new_socket)
 			{
 				printf("%s has entered a wrong password\n", strUser);
 				sending(new_socket, "n");
-				return 0;
+				exit(EXIT_FAILURE);
 			}
 		
 	
