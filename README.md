@@ -21,3 +21,4 @@ Brief description of the client programs:
 3. prover.c -- contains function for the user to play a prover role in the authentification part of the protocl
 4. mainclient.c -- asks to sign up/log in and implements the SRP on the client part.
 
+SRP design source: http://srp.stanford.edu/design.html
