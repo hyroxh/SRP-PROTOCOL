@@ -3,7 +3,7 @@ Password authentication with the SRP protocol in a basic client-server model
 
 In order to compile the programs, you should have argon2 and gmp libraries installed. Please visit https://github.com/P-H-C/phc-winner-argon2 and https://gmplib.org/ for further instuctions.
 
-Don't forget to add argon2.h and libargon2.a to your root directory!
+Don't forget to add argon2.h and libargon2.a to your directory!
 
 To compile the server and the client programs, enter the following command:
 $ make
