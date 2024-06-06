@@ -9,6 +9,8 @@ $ gcc server.c verifier.c mainserver.c libargon2.a -Isrc -lgmp -o <name_of_exe_f
 Similarly, to compile the client program, enter:
 $ gcc client.c setup.c prover.c mainclient.c libargon2.a -Isrc -lgmp -o <name_of_exe_file>
 
+Don't forget to add argon2.h and libargon2.a to your directory!
+
 Brief description of the server programs:
 1. server.c -- establishes connection and read/send functions
 2. verifier.c -- contains functions for the server to play a verifier role in the authentification part of the protocol.
