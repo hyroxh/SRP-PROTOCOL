@@ -5,7 +5,7 @@ In order to compile the programs, you should have argon2 and gmp libraries insta
 
 Don't forget to add argon2.h and libargon2.a to your root directory!
 
-To compile the server program, enter the following command:
+To compile the server and the client programs, enter the following command:
 $ make
 
 Output files, mainserver and mainclient, are ready for execution.
